@@ -3,21 +3,21 @@ import { Brand } from "@/types/brand";
 const brandsData: Brand[] = [
   {
     id: 6,
-    name: "Formbold",
+    name: "APEDA",
     href: "https://formbold.com",
-    image: "/images/brands/formbold.svg",
-    imageLight: "/images/brands/formbold-light.svg",
+    image: "/images/brands/Apeda.svg",
+    imageLight: "/images/brands/Apeda.svg",
   },
   {
     id: 1,
-    name: "UIdeck",
+    name: "APEDA",
     href: "https://uideck.com",
     image: "/images/brands/uideck.svg",
     imageLight: "/images/brands/uideck-light.svg",
   },
   {
     id: 2,
-    name: "Tailgrids",
+    name: "ABC",
     href: "https://tailgrids.com",
     image: "/images/brands/tailgrids.svg",
     imageLight: "/images/brands/tailgrids-light.svg",

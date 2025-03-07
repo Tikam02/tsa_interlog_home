@@ -116,23 +116,23 @@ const WhyChooseUs = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <ListItem 
             number="01" 
-            title="Get Buyers for Your Food Products" 
-            description="We ensure you get genuine buyers for your products who meet your expectations." 
+            title="Superior Quality" 
+            description="Our strict standards guarantee exceptional agricultural produce and crafted goods every time." 
           />
           <ListItem 
             number="02" 
-            title="Best Quality Food Trading Services" 
-            description="Our stringent policies ensure food handling and trading adhere to international quality standards." 
+            title="Your Partner, Your Profit" 
+            description="We streamline exports, cut costs, and maximize your returns with unmatched reliability." 
           />
           <ListItem 
             number="03" 
-            title="Global Presence" 
-            description="We cover multiple continents, enabling your products to be exported globally." 
+            title="Global Reach, Local Expertise" 
+            description="We navigate international markets seamlessly, delivering your goods where they thrive." 
           />
           <ListItem 
             number="04" 
-            title="Market Analysis & Up-to-date Market Information" 
-            description="Regular market analysis keeps you updated with the latest market information." 
+            title="Strategic Insight" 
+            description="Our market knowledge empowers you to stay ahead of trends and demands." 
           />
           <ListItem 
             number="05" 
@@ -141,8 +141,8 @@ const WhyChooseUs = () => {
           />
           <ListItem 
             number="06" 
-            title="Save Your Time & Cost for Searching Markets" 
-            description="We handle market research for you, saving time and reducing costs." 
+            title="Quality You Can Trust" 
+            description="Our rigorous processes ensure every item—be it cattle fodder or handicrafts—meets the highest standards." 
           />
         </div>
       </div>

@@ -9,7 +9,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Our Services"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph="We deliver top-tier export services, specializing in maize and maize-based products, cattle fodder, premium spices, agricultural produce, fine textiles, and artisan handicrafts—connecting global markets with excellence."
             center
           />
 

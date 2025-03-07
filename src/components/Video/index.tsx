@@ -10,13 +10,15 @@ const Video = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="relative z-10 py-16 md:py-20 lg:py-28">
+    <section className="relative z-4 py-4 md:py-16 lg:py-2">
       <div className="container">
         <SectionTitle
-          title="We are ready to help"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Certifications & Affiliations"
+          paragraph="Quality, safety, and compliance are at the core of our services. 
+          Our rigorous quality checks and adherence to industry standards have earned us certifications from leading regulatory bodies. 
+          These affiliations reflect our commitment to delivering trusted and reliable products."
           center
-          mb="80px"
+          mb="50px"
         />
 
         {/* <div className="-mx-4 flex flex-wrap">
@@ -58,7 +60,7 @@ const Video = () => {
         onClose={() => setOpen(false)}
       /> */}
 
-      <div className="absolute bottom-0 left-0 right-0 z-[-1] h-full w-full bg-[url(/images/video/shape.svg)] bg-cover bg-center bg-no-repeat"></div>
+      {/* <div className="absolute bottom-0 left-0 right-0 z-[-1] h-full w-full bg-[url(/images/video/pep.svg)] bg-cover bg-center bg-no-repeat opacity:40"></div> */}
     </section>
   );
 };

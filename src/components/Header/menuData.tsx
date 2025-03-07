@@ -33,13 +33,13 @@ const menuData: Menu[] = [
   },
   {
     id: 4,
-    title: "Pages",
+    title: "Products",
     newTab: false,
     submenu: [
       {
         id: 41,
-        title: "About Page",
-        path: "/about",
+        title: "TSA Foods",
+        path: "/tsa_foods",
         newTab: false,
       },
       {

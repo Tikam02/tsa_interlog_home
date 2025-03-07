@@ -9,7 +9,32 @@ const NewsLatterBox = () => {
 
   return (
     <div className="relative h-full z-10 rounded-sm bg-white p-8 shadow-three dark:bg-gray-dark sm:p-11 lg:p-8 xl:p-11">
-                    <div className="mb-12 max-w-[360px] lg:mb-16">
+
+                      <section className="mt-8 text-center pr-8">
+        <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
+        <div className="space-y-4">
+          <p>
+            <strong>Email:</strong>{" "}
+            <a href="mailto:hello@tsatradelog.com" className="text-blue-600 hover:underline">
+              hello@tsatradelog.com
+            </a>
+          </p>
+          <p>
+            <strong>Phone:</strong>{" "}
+            <a href="tel:+918839683031" className="text-blue-600 hover:underline">
+              (+91) 883968 3031
+            </a>
+          </p>
+          <p>
+            <strong>Proprietor:</strong>{" "}
+            <a href="mailto:tikamalma1@gmail.com" className="text-blue-600 hover:underline">
+              tikamalma1@gmail.com
+            </a>
+          </p>
+        </div>
+      </section>
+
+      <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 h-max winline-block">
                   <Image
                     src="/images/about/garlic.svg"
@@ -26,7 +51,8 @@ const NewsLatterBox = () => {
                     height={30}
                   />
                 </Link>
-                </div>
+                </div> 
+
      
     </div>
   );

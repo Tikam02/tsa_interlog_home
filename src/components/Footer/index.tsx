@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo/logo-2.svg"
+                    src="/images/logo/logo-3.svg"
                     alt="logo"
                     className="w-full dark:hidden"
                     width={140}
@@ -27,8 +27,8 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                Where Trust Meets Trade. Trust in every deal,Trade beyond the horizon.
+
                 </p>
                 <div className="flex items-center">
                   <a

@@ -11,7 +11,7 @@ const Video = () => {
 
   return (
     <section className="relative z-4 py-4 md:py-16 lg:py-2">
-      <div className="container">
+      <div className="container px-4 mx-auto">
         <SectionTitle
           title="Certifications & Affiliations"
           paragraph="Quality, safety, and compliance are at the core of our services. 

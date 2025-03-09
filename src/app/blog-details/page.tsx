@@ -19,8 +19,7 @@ const BlogDetailsPage = () => {
             <div className="w-full px-4 lg:w-8/12">
               <div>
                 <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-                  10 amazing sites to download stock photos & digital assets for
-                  free
+                Indian Corn Meal Exports: A Versatile Product for Global Markets
                 </h2>
                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
@@ -36,7 +35,7 @@ const BlogDetailsPage = () => {
                       </div>
                       <div className="w-full">
                         <span className="mb-1 text-base font-medium text-body-color">
-                          By <span>Musharof Chy</span>
+                          By <span>Tikam Singh Alma</span>
                         </span>
                       </div>
                     </div>
@@ -104,69 +103,37 @@ const BlogDetailsPage = () => {
                 </div>
                 <div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                  India's corn meal export landscape is undergoing significant changes, influenced by rising domestic demand and intensifying global competition. Traditionally a major supplier of corn and its derivatives, India is now facing challenges that are reshaping its position in the international market.
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src="/images/blog/blog-details-02.jpg"
+                        src="/images/assets/corn.jpg"
                         alt="image"
                         fill
                         className="object-cover object-center"
                       />
                     </div>
                   </div>
-                  <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis enim lobortis scelerisque fermentum. Neque
-                    sodales ut etiam sit amet. Ligula ullamcorper
-                    <strong className="text-primary dark:text-white">
-                      malesuada
-                    </strong>
-                    proin libero nunc consequat interdum varius. Quam
-                    pellentesque nec nam aliquam sem et tortor consequat.
-                    Pellentesque adipiscing commodo elit at imperdiet.
-                  </p>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Semper auctor neque vitae tempus quam pellentesque nec.
-                    <span className="text-primary underline dark:text-white">
-                      Amet dictum sit amet justo
-                    </span>
-                    donec enim diam. Varius sit amet mattis vulputate enim nulla
-                    aliquet porttitor. Odio pellentesque diam volutpat commodo
-                    sed.
-                  </p>
+
                   <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                    Digital marketplace for Ui/Ux designers.
-                  </h3>
+                  Surge in Domestic Demand</h3>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
+                  Several factors have contributed to the escalating domestic consumption of corn:
+
                   </p>
                   <ul className="mb-10 list-inside list-disc text-body-color">
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Consectetur adipiscing elit in voluptate velit.
+                    <b>Ethanol Production Initiatives:</b>  In an effort to reduce carbon emissions, the Indian government has prioritized corn-based ethanol production. The goal is to achieve a 20% ethanol blend in gasoline by 2025-26, leading to increased corn utilization in the energy sector
                     </li>
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Mattis vulputate cupidatat.
+                      <b>Livestock Feed Requirements:</b> The burgeoning poultry and dairy industries have heightened the demand for corn as a primary feed component. Projections indicate that corn consumption for animal feed will rise from an average of 15.393 million metric tons (MMT) in 2020-2022 to 19.383 MMT by 2032, reflecting an annual growth rate of 2.33%.
                     </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Vulputate enim nulla aliquet porttitor odio pellentesque
-                    </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Ligula ullamcorper malesuada proin
-                    </li>
+
                   </ul>
                   <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-center text-base font-medium italic text-body-color">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod incididunt utionals labore et dolore magna
-                      aliqua. Quis lobortis scelerisque fermentum, The Neque ut
-                      etiam sit amet.
+                    Indian maize is widely used in animal fodder due to its high nutritional value, providing essential energy, proteins, and carbohydrates for livestock. It is cost-effective and easily digestible, making it a preferred choice for cattle, poultry, and aquaculture feed. Additionally, India’s abundant production ensures a consistent and reliable supply for global markets.
                     </p>
                     <span className="absolute left-0 top-0 z-[-1]">
                       <svg
@@ -310,10 +277,21 @@ const BlogDetailsPage = () => {
                     </span>
                   </div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
+                  <h3 className="font-l mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                  Impact on Export Capacity</h3>
                   </p>
+
+                  <b>The intensified domestic demand has had a pronounced effect on India's corn exports:</b>
+                  <ul className="mb-10 list-inside list-disc text-body-color">
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    <b>Declining Export Volumes:</b>  From the 2020-21 to 2023-24 marketing years, corn exports have plummeted by approximately 86%. This decline is attributed to the need to satisfy internal consumption, thereby reducing the surplus available for international markets.
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                      <b>Livestock Feed Requirements:</b>  For the first time since the 1999/00 marketing year, India's corn imports are projected to match its exports. This shift underscores the pressing domestic demand and the challenges in meeting it solely through local production. 
+                    </li>
+
+                  </ul>
+                  
                   <div className="items-center justify-between sm:flex">
                     <div className="mb-5">
                       <h4 className="mb-3 text-sm font-medium text-body-color">

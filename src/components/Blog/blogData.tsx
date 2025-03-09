@@ -3,38 +3,38 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "India's Corn Meal Exports: Navigating Domestic Demand and Global Competition",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-01.jpg",
+      "The Impact of Indian Maize on International Markets.",
+    image: "/images/assets/maize.jpg",
     author: {
-      name: "Samuyl Joshi",
+      name: "Tikam Singh Alma",
       image: "/images/blog/author-01.png",
-      designation: "Graphic Designer",
+      designation: "CEO",
     },
-    tags: ["creative"],
+    tags: ["Maize"],
     publishDate: "2025",
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "India's Rice Exports: Meeting Global Demand with Quality and Tradition",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-02.jpg",
+      " India's Commitment to Supplying Premium Rice Worldwide.",
+    image: "/images/blog/wheat.jpg",
     author: {
       name: "Musharof Chy",
       image: "/images/blog/author-02.png",
       designation: "Content Writer",
     },
-    tags: ["computer"],
+    tags: ["Wheat"],
     publishDate: "2025",
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "The Spice Route Reimagined: India's Role in Flavoring the World",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-03.jpg",
+      "The Journey of Indian Spices Across Continents.",
+    image: "/images/blog/spices.jpg",
     author: {
       name: "Lethium Deo",
       image: "/images/blog/author-03.png",

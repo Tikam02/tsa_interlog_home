@@ -103,7 +103,7 @@ const BlogDetailsPage = () => {
                 </div>
                 <div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                  India's corn meal export landscape is undergoing significant changes, influenced by rising domestic demand and intensifying global competition. Traditionally a major supplier of corn and its derivatives, India is now facing challenges that are reshaping its position in the international market.
+                  India corn meal export landscape is undergoing significant changes, influenced by rising domestic demand and intensifying global competition. Traditionally a major supplier of corn and its derivatives, India is now facing challenges that are reshaping its position in the international market.
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
@@ -281,13 +281,13 @@ const BlogDetailsPage = () => {
                   Impact on Export Capacity</h3>
                   </p>
 
-                  <b>The intensified domestic demand has had a pronounced effect on India's corn exports:</b>
+                  <b>The intensified domestic demand has had a pronounced effect on Indias corn exports:</b>
                   <ul className="mb-10 list-inside list-disc text-body-color">
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
                     <b>Declining Export Volumes:</b>  From the 2020-21 to 2023-24 marketing years, corn exports have plummeted by approximately 86%. This decline is attributed to the need to satisfy internal consumption, thereby reducing the surplus available for international markets.
                     </li>
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      <b>Livestock Feed Requirements:</b>  For the first time since the 1999/00 marketing year, India's corn imports are projected to match its exports. This shift underscores the pressing domestic demand and the challenges in meeting it solely through local production. 
+                      <b>Livestock Feed Requirements:</b>  For the first time since the 1999/00 marketing year, Indias corn imports are projected to match its exports. This shift underscores the pressing domestic demand and the challenges in meeting it solely through local production. 
                     </li>
 
                   </ul>

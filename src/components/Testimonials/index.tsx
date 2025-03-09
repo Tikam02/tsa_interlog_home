@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Fortune Overseas",
+    designation: "",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      " Their selection of dry fruits is top-notch—fresh, flavorful, and of the highest quality. The entire process, from ordering to delivery, was seamless and professional.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "GreenGraze Feeds,UAE",
+    designation: "",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "TSA Interlog & Trade provides top-quality animal fodder that keeps our livestock healthy and thriving. Reliable supply and excellent service—highly recommended.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "EuroSpice, EU",
+    designation: "",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "TSA Interlog & Trade delivers the freshest and most aromatic spices we've ever used. Their quality and consistency make them our go-to supplier.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,7 +37,7 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
+          title="What Our Clients  Says"
           paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
           center
         />

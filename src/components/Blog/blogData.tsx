@@ -12,7 +12,7 @@ const blogData: Blog[] = [
       image: "/images/blog/author-01.png",
       designation: "CEO",
     },
-    tags: ["Maize"],
+    tags: [],
     publishDate: "2025",
   },
   {

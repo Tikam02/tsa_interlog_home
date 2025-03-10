@@ -38,7 +38,7 @@ const Testimonials = () => {
       <div className="container">
         <SectionTitle
           title="What Our Clients  Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="What Our Clients Say We take pride in delivering exceptional products and services, and our clients' feedback reflects our commitment to quality and excellence."
           center
         />
 

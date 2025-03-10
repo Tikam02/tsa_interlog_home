@@ -16,7 +16,7 @@ const NewsLatterBox = () => {
           <p>
             <strong>Email:</strong>{" "}
             <a href="mailto:hello@tsatradelog.com" className="text-blue-600 hover:underline">
-              hello@tsatradelog.com
+            info@tsatradelog.com  
             </a>
           </p>
           <p>
@@ -25,16 +25,10 @@ const NewsLatterBox = () => {
               (+91) 883968 3031
             </a>
           </p>
-          <p>
-            <strong>Proprietor:</strong>{" "}
-            <a href="mailto:tikamalma1@gmail.com" className="text-blue-600 hover:underline">
-              tikamalma1@gmail.com
-            </a>
-          </p>
         </div>
       </section>
 
-      <div className="mb-12 max-w-[360px] lg:mb-16">
+      <div className="mb-10 max-w-[350px] lg:mb-16">
                 <Link href="/" className="mb-8 h-max winline-block">
                   <Image
                     src="/images/about/garlic.svg"

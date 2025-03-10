@@ -44,7 +44,7 @@ const menuData: Menu[] = [
       },
       {
         id: 42,
-        title: "Aphrovia",
+        title: "Grains & Oilseeds",
         path: "/Aphrovia",
         newTab: false,
       },
@@ -73,8 +73,14 @@ const menuData: Menu[] = [
         newTab: false,
       },
       {
-        id: 46,
+        id: 47,
         title: "Arts & Antiques",
+        path: "/signin",
+        newTab: false,
+      },
+      {
+        id: 48,
+        title: "Animal Feed & Protien",
         path: "/signin",
         newTab: false,
       },

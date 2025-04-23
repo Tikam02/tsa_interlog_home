@@ -15,6 +15,21 @@ const certificates: Certificate[] = [
     title: "GST Certificate",
     url: "/certificates/GST-1.png",
   },
+  {
+    id: 2,
+    title: "IEC Certificate",
+    url: "/certificates/IEC-1.png",
+  },
+  {
+    id: 3,
+    title: "Spice Board Certificate",
+    url: "/certificates/Spice-1.png",
+  },
+  {
+    id: 4,
+    title: "FSSAI Certificate",
+    url: "/certificates/FSSAI-1.png",
+  },
   // Add more certificates as needed
 ];
 

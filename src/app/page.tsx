@@ -81,8 +81,70 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "TSA Interlog & Trade",
+    "url": "https://tsatradelog.com",
+    "logo": "https://tsatradelog.com/images/logo/logo.svg",
+    "description": "Premier Indian exporter of maize, cattle fodder, spices, textiles & artisan handicrafts. ISO-certified global supply chain solutions connecting 25+ countries.",
+    "foundingDate": "2010",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Customer Service",
+      "email": "info@tsatradelog.com",
+      "availableLanguage": ["English", "Hindi"]
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "IN"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/tsatradelog",
+      "https://twitter.com/tsatradelog"
+    ]
+  };
+
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "TSA Interlog & Trade",
+    "url": "https://tsatradelog.com",
+    "description": "Leading Indian Exporter of Maize, Spices & Sustainable Agricultural Products",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://tsatradelog.com/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://tsatradelog.com"
+      }
+    ]
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <ScrollUp />
       <Hero />
       <Features />

@@ -11,8 +11,65 @@ export const metadata: Metadata = {
 };
 
 const BlogDetailsPage = () => {
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Indian Corn Meal Exports: A Versatile Product for Global Markets",
+    "image": "https://tsatradelog.com/images/assets/corn.jpg",
+    "author": {
+      "@type": "Person",
+      "name": "Tikam Singh Alma"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "TSA Interlog & Trade",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://tsatradelog.com/images/logo/logo.svg"
+      }
+    },
+    "datePublished": "2024-01-12",
+    "dateModified": "2024-01-12",
+    "description": "India corn meal export landscape is undergoing significant changes, influenced by rising domestic demand and intensifying global competition.",
+    "articleBody": "India corn meal export landscape is undergoing significant changes, influenced by rising domestic demand and intensifying global competition. Traditionally a major supplier of corn and its derivatives, India is now facing challenges that are reshaping its position in the international market.",
+    "keywords": "corn meal, India exports, maize, agricultural exports, ethanol production, livestock feed"
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://tsatradelog.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://tsatradelog.com/blog"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Indian Corn Meal Exports",
+        "item": "https://tsatradelog.com/blog-details"
+      }
+    ]
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <section className="pb-[120px] pt-[150px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">

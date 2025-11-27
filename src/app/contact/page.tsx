@@ -101,11 +101,46 @@ export const metadata: Metadata = {
 };
 
 const ContactPage = () => {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://tsatradelog.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Contact",
+        "item": "https://tsatradelog.com/contact"
+      }
+    ]
+  };
+
+  const contactPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact TSA Interlog & Trade",
+    "description": "Reach out with confidence and ease. We are just a message away from turning your trade goals into reality.",
+    "url": "https://tsatradelog.com/contact"
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(contactPageSchema) }}
+      />
       <Breadcrumb
         pageName="Let's Connect"
-        description="Reach out with confidence and ease. We are just a message away from turning your trade goals into reality. 
+        description="Reach out with confidence and ease. We are just a message away from turning your trade goals into reality.
         Contact us today—via email, form, or phone—and experience the reliability that defines TSA Interlog & Trade."
       />
       {/* Contact Details Section */}
